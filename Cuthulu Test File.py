@@ -68,7 +68,7 @@ def main():
     wallL = False
     wallR = False
     counter = 0
-    timer = 143000
+    timer = 0
     Timer = "2"
     if timer % 100 == 0:
         hour = (timer // 6000) % 12

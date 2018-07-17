@@ -16,8 +16,8 @@ def main():
     ground2 = Image(Point(win.getWidth() // 2, 1000), "ground2.png")
     tomR = Image(Point(win.getWidth() // 2, 830), "Tom Hernandez R.png")
     tomL = Image(Point(win.getWidth() // 2, 830 - 1080), "Tom Hernandez L.png")
-    dayTheme = MediaPlayer("Virtual Riot - Energy Drink.wav")
-    cuthuluTheme = MediaPlayer("Cuthulu Theme.wav")
+    dayTheme = MediaPlayer("Virtual Riot - Energy Drink.mp3")
+    cuthuluTheme = MediaPlayer("Cuthulu Theme.mp3")
     title.draw(win)
     start.draw(win)
     Start = False
